@@ -1,0 +1,25 @@
+table{
+    width: 700px;
+    
+}
+th{
+    text-align: left;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    background: #E64A19;
+}
+table, th, td{
+    border: 1px solid #000;
+    border-collapse: collapse;
+}
+th, td{
+    padding: 20px;
+    color: azure;
+}
+header{
+    font-size: 25px;
+    text-transform: uppercase;
+}
+tr{
+    background: #212121;
+}
