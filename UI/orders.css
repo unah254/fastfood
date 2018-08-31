@@ -1,0 +1,22 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    width: 100%;
+    height: auto;
+    background-color: white;
+    overflow: hidden;
+}
+.content-wrapper{
+    width: 80%;
+    margin: 4% 10% 5% 10%;
+}
+.content-wrapper img{
+    width: 40%;
+}
+.text-wrapper{
+    width: 100%;
+    margin-top: -40%;
+    position: relative;
+}
