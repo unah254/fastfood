@@ -1,0 +1,71 @@
+body{
+    background-image: url(coffee1.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    padding: 70px 30px;
+    background-position: center;
+    font-family: sans-serif;
+}
+.loginbox{
+    width: 320px;
+    height: 420px;
+    background: #000;
+    color: #fff;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+}
+h1
+{
+    text-align: center;
+    margin: 0;
+    font-size: 20px;
+    padding: 0 0 20px;
+}
+.loginbox p
+{
+    padding: 0;
+    margin: 0;
+    font-weight: bold;
+}
+.loginbox input{
+    margin-bottom: 20px;
+    width: 95%;
+}
+.loginbox input[type="text"], input[type="password"]
+{
+    height: 40px;
+    font-size: 16px;
+    color: #fff;
+    outline: none;
+    background: transparent;
+    border-bottom: 1px solid #fff;
+}
+.loginbox input[type="submit"]
+{
+    font-size: 18px;
+    border: none;
+    height: 40px;
+    outline: none;
+    background: #fb2525;
+    border-radius: 20pt;
+    color: #fff;
+}
+.loginbox input[type="submit"] :hover
+{
+    cursor: pointer;
+    color: #000;
+    background: #ffc107;
+}
+.loginbox a{
+    font-size: 12px;
+    line-height: 20px;
+    text-decoration: none;
+    color: darkgray;
+}
+.loginbox a :hover{
+    color: #ffc107;
+}
