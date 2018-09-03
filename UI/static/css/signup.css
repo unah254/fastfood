@@ -1,5 +1,5 @@
 body{
-    background-image: url(coffee1.jpeg);
+    background-image: url(../images/food2.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     margin: 0;
@@ -53,18 +53,6 @@ h1
     background: #fb2525;
     border-radius: 20pt;
     color: #fff;
-}
-.loginbox input[type="submit"] :hover
-{
-    cursor: pointer;
-    color: #000;
-    background: #ffc107;
-}
-.loginbox a{
-    font-size: 12px;
-    line-height: 20px;
-    text-decoration: none;
-    color: darkgray;
 }
 .loginbox a :hover{
     color: #ffc107;
