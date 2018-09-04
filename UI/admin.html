@@ -4,58 +4,69 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet"  type="text/css" href="static/css/admin.css">
+    <link rel="stylesheet"  type="text/css" href="static/css/homepage.css">
     <title>Document</title>
 </head>
 <body>
-    <header>Handle Orders</header>
-    <table> 
-        <tr>
-            <th>OrderNo</th>
-            <th>Description</th>
-            <th>Amount</th>
-            <th>Location</th>
-            <th>Order Status</th>
-            <th>Order Action</th>
-        </tr>
-        <tr>
-            <td>OO1</td>
-            <td>Grilled chicken</td>
-            <td>Ksh800</td>
-            <td>Langata</td>
-            <td>Waiting for Approval</td>
-            <td><select>
-                <option value="Approved">Approve</option>
-                <option value="Rejected">Reject</option>
-                <option value="Pending">Receive</option>
-            </select> </td>
-        </tr>
-          <tr>
-                <td>OO2</td>
-                <td>Burger Fries</td>
-                <td>Ksh1500</td>
-                <td>Muthaiga</td>
-                <td>completed</td>
-                <td><select>
-                        <option value="Approved">Reject</option>
-                        <option value="Rejected">Approve</option>
-                        <option value="Pending">Receive</option>
-                    </select> </td>
-            </tr> 
-            <tr>
-                    <td>OO3</td>
-                    <td>Chicken Shawarma</td>
-                    <td>Ksh90</td>
-                    <td>Kiliman</td>
-                    <td>cancelled</td>
-                    <td><select>
-                            <option value="Approved">Receive</option>
-                            <option value="Rejected">Reject</option>
-                            <option value="Pending">Approve</option>
-                        </select> </td>
-                </tr> 
+   <div class="header"></div> 
+    <div class="">
+  
+           
+            <div class="sidenav">
+              <a href="#">Orders</a>
+              <a href="#">Dishes</a>
+              <a href="#">Accounts</a>
+            </div>
 
-    </table>
+        <div class="main">
+             
+            <table> 
+                <tr>
+                    <th>OrderNo</th>
+                    <th>Description</th>
+                    <th>Amount</th>
+                    <th>Location</th>
+                    <th>Order Status</th>
+                    <th>Order Action</th>
+                </tr>
+                <tr>
+                    <td>OO1</td>
+                    <td>Grilled chicken</td>
+                    <td>Ksh800</td>
+                    <td>Langata</td>
+                    <td>Waiting for Approval</td>
+                    <td>
+                            <a href="#">Reject</a>
+                            <a href="#">Approve</a>
+                         
+                     </td>
+                </tr>
+                <tr>
+                        <td>OO2</td>
+                        <td>Burger Fries</td>
+                        <td>Ksh1500</td>
+                        <td>Muthaiga</td>
+                        <td>completed</td>
+                        <td>
+                                <a href="#">Reject</a>
+                                <a href="#">Approve</a>
+                                
+                             </td>
+                    </tr> 
+                    <tr>
+                            <td>OO3</td>
+                            <td>Chicken Shawarma</td>
+                            <td>Ksh90</td>
+                            <td>Kiliman</td>
+                            <td>cancelled</td>
+                            <td>
+                                <a href="#">Reject</a>
+                                <a href="#">Approve</a>
+                                
+                                 </td>
+                        </tr> 
+
+            </table>
 
     </div>
 </body>
