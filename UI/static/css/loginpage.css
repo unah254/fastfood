@@ -1,5 +1,5 @@
 body{
-    background-image: url(food2.jpg);
+    background-image: url(../images/coffee1.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
     margin: 0;
@@ -44,6 +44,11 @@ h1
     background: transparent;
     border-bottom: 1px solid #fff;
 }
+
+.signin{
+   margin-left: 5px; 
+}
+
 .loginbox input[type="submit"]
 {
     font-size: 18px;
@@ -53,6 +58,18 @@ h1
     background: #fb2525;
     border-radius: 20pt;
     color: #fff;
+}
+.loginbox input[type="submit"] :hover
+{
+    cursor: pointer;
+    color: #000;
+    background: #ffc107;
+}
+.loginbox a{
+    font-size: 12px;
+    line-height: 20px;
+    text-decoration: none;
+    color: darkgray;
 }
 .loginbox a :hover{
     color: #ffc107;
