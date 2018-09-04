@@ -1,63 +1,17 @@
 @charset "UTF-8";
 /* CSS Document */
 
-body {
-	width: 60%;
-	margin: 0;
-	background:url(../images/land.jpg);
-	background-attachment: fixed;
-    background-size: cover;
-	background-position: center;
-    width: 100%;
-    background-repeat: no-repeat;
-	align-content: center;
-	background-color:#999;
-
-}
-
-img.scale-with-grid {
-	max-width: 100%;
-	height: auto; }
-
-.content {
-	padding: 20px;
-    max-width: 500px;
-    margin: auto;
-}
-
-h1 {
-	padding: 20px;
-	font-size: 48px;
-	color: #FF5154;
-	font-family: "Lato Bold";
-	font-weight: 1000;
-	line-height: 2; }
-
-p { 
-	padding: 20px;
-	margin: 0 0 20px 0; 
-	font-size: 18px;
-	color: #FFF;
-	font-family: "Montserrat";	
-	font-weight: 400;
-	line-height: 2;
-}
-
-p.small {
-	padding: 20px;
-	font-size: 12px;
-	font-weight: 300;
-}
-
 ul.topnav {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #333;
+    background-color: rgba(0, 0, 0, 0.774);
 }
 
-ul.topnav li {float: left;}
+ul.topnav li {
+	float: left;
+}
 
 ul.topnav li a {
     display: block;
@@ -67,12 +21,178 @@ ul.topnav li a {
     text-decoration: none;
 }
 
-ul.topnav li a:hover:not(.active) {background-color: #111;}
-
-ul.topnav li a.active {background-color: #FF0000;}
-
-
 @media screen and (max-width: 600px){
     ul.topnav li.right, 
     ul.topnav li {float: none;}
 }
+* {
+    box-sizing: border-box;
+}
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+}
+
+label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+}
+
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: center;
+    text-align: center;
+    width: 100%;
+}
+
+img{
+    width: 100%;
+    height: 200px;
+}
+
+.container {
+    border-radius: 10px;
+    background-color: #f2f2f2;
+    padding: 25px;
+    height: 100%;
+}
+
+.col-25 {
+    float: left;
+    width: 30%;
+    margin-top: 6px;
+}
+
+.col-75 {
+    float: left;
+    width: 75%;
+    margin-top: 6px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.order-form{
+    margin: 200px;
+}
+
+.header {
+    margin-top: 20px;
+}
+
+.col-25-food {
+    float: left;
+    width: 30%;
+    margin: 6px;
+    border: solid;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.name {
+    float: center;
+    text-align: center;
+    color: rgb(0,122,24);
+}
+
+.price {
+    text-align: center;
+    color: rgba(239,44,44);
+    font-size: 20px
+}
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+    .col-25, .col-75, input[type=submit] {
+        width: 100%;
+        margin-top: 0;
+    }
+    .sidenav, main {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+}
+
+
+
+.sidenav {
+height: 70%;
+width: 200px;
+position: fixed;
+z-index: 1;
+top: 0;
+left: 0;
+overflow-x: hidden;
+padding-top: 20px;
+width: 30%;
+}
+
+.sidenav a {
+padding: 6px 6px 6px 32px;
+text-decoration: none;
+font-size: 25px;
+color: rgb(0,122,24);
+display: block;
+
+}
+
+.sidenav a:hover {
+color: #f1f1f1;
+}
+table{
+    width: 100%;
+    
+}
+
+.main{
+    margin-left: 200px;
+    width: 70%;
+    float: left;
+}
+
+th{
+    text-align: left;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    background: #E64A19;
+}
+table, th, td{
+    border: 1px solid #000;
+    border-collapse: collapse;
+}
+th, td{
+    padding: 20px;
+    color: azure;
+}
+header{
+    font-size: 25px;
+    text-transform: uppercase;
+}
+tr{
+    background: #212121;
+}
+
