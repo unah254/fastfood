@@ -1,29 +1,80 @@
 @charset "UTF-8";
 /* CSS Document */
-
-ul.topnav {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: rgba(0, 0, 0, 0.774);
+html{
+    background-color: white;
 }
-
-ul.topnav li {
-	float: left;
+body{
+    background-color: #ccc;
+    margin: 0 auto;
+    width: 1000px;
+    font-family: Arial, Helvetica, sans-serif;
 }
-
-ul.topnav li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
+a{
     text-decoration: none;
+    color:black;
+    text-transform: lowercase;
 }
+/*HEADER*/
+header{
+    height: 150px;
+    padding-top: 10px;
+}
+#logo{
+    width: 320px;
+    float: left;
+    margin: 0;
+     
+}
+ul{
+    padding: 0;
 
-@media screen and (max-width: 600px){
-    ul.topnav li.right, 
-    ul.topnav li {float: none;}
+}
+li{
+    display: inline;
+    padding: 8px;
+    font-size: 12px;
+}
+header li:first-child{
+    border-right: 1px solid black;
+}
+.left{
+    width: 320px;
+    float: left;
+
+}
+.left ul{
+    padding-top: 90px;
+    padding-left: 30px;
+}
+.right{
+    width: 320px;
+    float: right;
+}
+.right ul{
+    padding-top: 90px;
+    padding-left: 30px;
+}   
+.content {
+	padding: 5px;
+    max-width: 500px;
+    margin: auto;
+}
+.main{
+    background-image: url(../images/dinner-dish-egg-54455.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+    width: 1500px;
+    margin: 0;
+    
+}
+.main p{
+    margin: 0;
+    padding-top: 20px;
+    color: white;
+}
+.main a{
+    color: #ccc;
 }
 * {
     box-sizing: border-box;
@@ -33,7 +84,7 @@ input[type=text], select, textarea {
     width: 100%;
     padding: 12px;
     border: 1px solid #ccc;
-    border-radius: 4px;
+    border-radius: 0;
     resize: vertical;
 }
 
@@ -67,6 +118,7 @@ button {
     text-align: center;
     width: 100%;
 }
+
 
 img{
     width: 100%;

@@ -3,7 +3,7 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     margin: 0;
-    padding: 70px 30px;
+    padding: 100px 30px;
     background-position: center;
     font-family: sans-serif;
 }
@@ -49,7 +49,7 @@ h1
    margin-left: 5px; 
 }
 
-.loginbox input[type="submit"]
+.loginbox input[type="value"]
 {
     font-size: 18px;
     border: none;
@@ -59,7 +59,7 @@ h1
     border-radius: 20pt;
     color: #fff;
 }
-.loginbox input[type="submit"] :hover
+.loginbox input[type="value"] :hover
 {
     cursor: pointer;
     color: #000;
