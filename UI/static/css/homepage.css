@@ -64,7 +64,7 @@ header li:first-child{
     background-repeat: no-repeat;
     background-size: cover;
     height: 400px;
-    width: 1500px;
+    width: 1000px;
     margin: 0;
     
 }
@@ -219,12 +219,10 @@ table{
     width: 100%;
     
 }
+ /* margin-left: 200px; */
+   /* width: 70%; */
+   /* float: left; */
 
-.main{
-    margin-left: 200px;
-    width: 70%;
-    float: left;
-}
 
 th{
     text-align: left;
