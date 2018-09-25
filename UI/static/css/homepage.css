@@ -73,6 +73,9 @@ header li:first-child{
     padding-top: 20px;
     color: white;
 }
+.main a{
+    color: #ccc;
+}
 * {
     box-sizing: border-box;
 }
