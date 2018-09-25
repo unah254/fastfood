@@ -6,75 +6,70 @@ html{
 body{
     background-color: #ccc;
     margin: 0 auto;
-    width: 1000px;
+    width: 1300px;
     font-family: Arial, Helvetica, sans-serif;
 }
-a{
+nav ul li a{
     text-decoration: none;
-    color:black;
-    text-transform: lowercase;
+    color:white;
+    text-transform: uppercase;
+    padding: 30px;
 }
-/*HEADER*/
-header{
-    height: 150px;
-    padding-top: 10px;
-}
-#logo{
-    width: 320px;
-    float: left;
-    margin: 0;
-     
-}
-ul{
-    padding: 0;
+nav{
+    width: 100%;
+    height: 80px;
+    background-color: black;
+    line-height: 80px;
+    opacity: 0.8;
+    overflow: auto;
 
 }
-li{
-    display: inline;
-    padding: 8px;
-    font-size: 12px;
+nav ul li :hover{
+    background-color: #E64A19;
 }
-header li:first-child{
-    border-right: 1px solid black;
-}
-.left{
-    width: 320px;
-    float: left;
-
-}
-.left ul{
-    padding-top: 90px;
-    padding-left: 30px;
-}
-.right{
-    width: 320px;
+nav ul{
     float: right;
+    margin-right: 30px;
 }
-.right ul{
-    padding-top: 90px;
-    padding-left: 30px;
-}   
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    transition: 0.8s all;
+
+}
+.logo img{
+    width: 400px;
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 30px;
+    float: left;
+    height: 60px;
+   
+}
 .content {
 	padding: 5px;
     max-width: 500px;
     margin: auto;
 }
 .main{
-    background-image: url(../images/dinner-dish-egg-54455.jpg);
+    background-image: url(../images/chips-dinner-fast-food.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 400px;
-    width: 1000px;
-    margin: 0;
+    height: 600px;
+    width: 1300px;
+    margin: 0 auto;
     
 }
 .main p{
     margin: 0;
     padding-top: 20px;
-    color: white;
+    color: black;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
 }
 .main a{
-    color: #ccc;
+    color: orangered;
 }
 * {
     box-sizing: border-box;
@@ -128,7 +123,7 @@ img{
 .container {
     border-radius: 10px;
     background-color: #f2f2f2;
-    padding: 25px;
+    padding: 30px;
     height: 100%;
 }
 

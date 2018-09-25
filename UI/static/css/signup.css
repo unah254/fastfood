@@ -9,7 +9,7 @@ body{
 }
 .loginbox{
     width: 320px;
-    height: 420px;
+    height: 350px;
     background: #000;
     color: #fff;
     top: 50%;
@@ -45,7 +45,7 @@ h1
     border-bottom: 1px solid #fff;
 }
 .signup{
-    margin-left: 5px;
+    margin-left: 7px;
 }
 .loginbox input[type="submit"]
 {
