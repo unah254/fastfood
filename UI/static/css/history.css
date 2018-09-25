@@ -1,0 +1,41 @@
+body{    
+    background-image: url(../images/land.jpg);
+    background-size: cover;
+    margin: 0;
+    font-family: 'Comic Sans MS';
+    background-repeat: no-repeat;    
+}
+h1{
+    text-align: center;
+    color:white;
+}
+table{
+    border-collapse: collapse;
+    width: 70%;
+    text-align: left;
+    color:white;    
+    margin-left: auto;
+    margin-right: auto;
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 0.7;
+    height: auto;
+    border: 3px solid #000;
+    border-collapse: collapse;
+}
+td{
+    border-bottom: solid;
+    border: 3px solid #000;
+    border-collapse: collapse;
+}
+th{
+    text-align: left;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    background: #E64A19;
+    border: 3px solid #000;
+    border-collapse: collapse;
+}
+a {
+    color: honeydew;
+}
