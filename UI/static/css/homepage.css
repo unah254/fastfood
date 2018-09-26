@@ -189,6 +189,7 @@ img{
 .sidenav {
 height: 70%;
 width: 200px;
+float: right;
 position: fixed;
 z-index: 1;
 top: 0;
